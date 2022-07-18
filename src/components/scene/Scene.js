@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Scene() {
+export default function Scene(props) {
   return (
-    <p> El nostre heroi estava surant per l'espai sideral quan a la llunyania va albirar una nau espacial </p>
+    <div>
+      <p>{props.d.quote}</p>
+    </div>
   )
 }
